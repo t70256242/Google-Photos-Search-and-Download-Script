@@ -35,7 +35,7 @@ chrome_options.add_argument("--disable-gpu")
 chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
 chrome_options.add_experimental_option("useAutomationExtension", False)
 
-print("Starting google photo search headless")
+print("Starting google photo search.")
 for i in range(3):
     try:
         driver = webdriver.Chrome(options=chrome_options)
